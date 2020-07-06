@@ -1,5 +1,5 @@
 # ScreenRecorder with Countdown Timer
-- Create Countdown Timer using Python-Tkinter
+## Create Countdown Timer using Python-Tkinter
 
 
 Prerequisistes: Python GUI – tkinter
@@ -13,3 +13,9 @@ Approach
 * Create the main window (container)
 * Add number of widgets to the main window:Button, Entry
 * Apply the event Trigger on the widgets.
+
+## PyAutoGUI 
+
+PyAutoGUI can take screenshots, save them to files, and locate images within the screen. This is useful if you have a small image of, say, a button that needs to be clicked and want to locate it on the screen. These features are provided by the PyScreeze module, which is installed with PyAutoGUI.
+
+Screenshot functionality requires the Pillow module. OS X uses the screencapture command, which comes with the operating system. Linux uses the scrot command, which can be installed by running sudo apt-get install scrot.
